@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:beetroot",
+    "C": "camelburgermod:cooked_camel_meat",
+    "K": "minecraft:kelp",
+    "R": "minecraft:bread"
+  },
+  "pattern": [
+    " R ",
+    "KCB",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "camelburgermod:camel_burger"
+  }
+}

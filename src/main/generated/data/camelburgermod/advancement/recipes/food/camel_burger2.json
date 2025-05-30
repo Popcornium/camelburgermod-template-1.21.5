@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_camel_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "camelburgermod:cooked_camel_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "camelburgermod:camel_burger2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_camel_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "camelburgermod:camel_burger2"
+    ]
+  }
+}

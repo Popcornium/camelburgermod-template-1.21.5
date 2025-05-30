@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "camelburgermod",
+	"version": "${version}",
+	"name": "CamelBurgerMod",
+	"description": "mmmmm camel burger",
+	"authors": [
+		"Popcornium"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/camelburgermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.popcornium.camelburgermod.CamelBurgerMod"
+		],
+		"fabric-datagen": [
+			"net.popcornium.camelburgermod.CamelBurgerModDataGenerator"
+		],
+		"client": [
+			"net.popcornium.camelburgermod.CamelBurgerClient"
+		]
+	},
+	"mixins": [
+		"camelburgermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
